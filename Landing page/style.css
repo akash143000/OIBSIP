@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    justify-content:flex-end;
+    padding: 15px 10%;
+    background-color: green;
+    background-size: cover;
+}
+.logo{
+    cursor: pointer;
+    color: white;
+    margin-right: auto;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.link{
+    list-style:none;
+    display: flex;
+    padding: 10px;
+}
+.link li a{
+    padding: 0px 20px;
+}
+.link li a:hover{
+    color: blue;
+}
+#btns{
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(89, 228, 89);
+    color: white;
+    border-radius: 20px;
+}
+.back{
+    display: flex;
+    background-image: url(img/back.jfif);
+    background-size: cover;
+    position: relative;
+    height:500px
+}
+.back img{
+    margin: 80px 0px 50px 30px;
+}
+.back h2,p{
+    text-align: center;
+    padding: 30px;
+}
+.back p{
+    color: black;
+    font-weight: bold;
+}
+.back .right button{
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(89, 228, 89);
+    color: white;
+    position: absolute;
+    left: 60%;
+    border-radius: 20px;
+}
+.web{
+    display: flex;
+    background-color: white;
+}
+.web .left img{
+    margin: 80px 0px 50px 30px;
+}
+.web .right h2{
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+.web .right {
+    text-align: center;
+}
+.web .right p{
+    font-weight: bold;
+}
+.web .right button{
+    padding: 10px 20px ;
+    background-color:rgb(89, 228, 89);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sec{
+    display: flex;
+    background-color: white;
+}
+.sec .right img{
+    margin: 50px 30px 50px 0px;
+}
+.sec .left h2{
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+.sec .left p{
+    font-weight: bold;
+}
+.group{
+    display: flex;
+    background-color: white;
+}
+.group .left img{
+    padding: 10px;
+    margin: 0px 30px ;
+}
+.group .right h2{
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+.group .right p{
+    font-weight: bold;
+}
+.chat{
+    display: flex;
+    background-color: white;
+}
+.chat .right img{
+    margin: 50px 30px 50px 0px;
+}
+.chat .left h2{
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+.chat .left p{
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: rgb(60, 224, 88);
+    font-size:30px;
+}
+.icon{
+    color: white;
+}
+footer h2{
+    color: white;
+    font-size: small;
+}
